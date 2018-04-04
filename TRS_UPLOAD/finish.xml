@@ -1,0 +1,6 @@
+<message module="CDN" version="3.0">
+        <header action="REQUEST" command="TIMER_SET" component-id="cnoss01" component-type="WEB" sequence="100000001" />
+                <body>
+                        <timer appiont-time="" id="tsu-record-monitor" interval="10" operation="0" parameter="0" />
+                </body>
+</message>
