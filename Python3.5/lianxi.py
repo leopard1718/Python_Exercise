@@ -85,7 +85,7 @@ def Solve(board):
 
     return False
 
-from Tkinter import *
+from tkinter import *
 
 class LightButton(Button):
     def __init__(self, parent, pos, board):
